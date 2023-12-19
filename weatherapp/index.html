@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex justify-center">
+       
+    <div class="h-screen w-96 max-w-full  bg-blue-950 rounded-lg my-3 ">
+        <div class="flex justify-center my-3">
+<input type="text" placeholder="Enter city name" id="cityinput" class=" h-8 rounded-2xl border-none outline-none px-4 py-2 mx-0.5 my-3.5">
+      <img src="images/search.png" id="add" value="submit" class="w-7 h-7 bg-white rounded-xl px-2 py-2 mx-4 my-4">
+    </div>
+    <div id="cityoutput" class="text-white text-center text-lg font-bold my-1" ></div>
+
+    <div id="description" class="text-center text-white font-bold"></div>
+
+    <img id="weather-icon" class="text-center m-auto my-0">
+    <div class="my-3">
+<div class="text-white flex m-auto justify-around font-bold">
+<div id="temp"></div>
+<div id="wind">
+</div>
+</div>
+</div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html8
